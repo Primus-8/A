@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Search Replica</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #1e3c72, #2a5298); /* Blue gradient */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .search-container {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      backdrop-filter: blur(10px);
+    }
+
+    .search-container input {
+      width: 300px;
+      padding: 12px 18px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #fff;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .search-container input::placeholder {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-container">
+    <input type="text" placeholder="Search..." />
+  </div>
+</body>
+</html>
